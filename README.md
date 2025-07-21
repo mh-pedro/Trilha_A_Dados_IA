@@ -131,7 +131,7 @@ TRILHA_A_DADOS_IA/
     AWS_SECRET_ACCESS_KEY=seu_secret_key
     AWS_REGION=us-east-1
 
-    OBS.: Foram usadas as credenciais são de uma conta de teste.
+    OBS.: Foram usadas as credenciais de uma conta de teste.
 
 5. **Execute o notebook:**
    ```bash
