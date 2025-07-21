@@ -90,6 +90,55 @@ Este projeto reforça o papel da ciência de dados na **otimização de infraest
 
 ---
 
+## Estrutura do Projeto
+```
+TRILHA_A_DADOS_IA/
+├── notebooks/               # Pasta com os notebooks Jupyter
+│   └── trilhaA/             # Notebooks específicos da Trilha A
+│       └── notebook.ipynb   # Notebook principal com a análise
+├── .gitattributes           # Configurações do Git
+├── README.md                # Documentação do projeto
+└── requirements.txt         # Dependências do projeto
+```
+
+## Instalação e Configuração
+
+### Pré-requisitos
+- Python 3.8 ou superior
+- Gerenciador de pacotes `pip`
+- Ambiente virtual (recomendado)
+
+### Passos para Configuração
+
+1. **Clone o repositório:**
+   ```bash
+   git clone https://github.com/mh-pedro/TRILHA_A_DADOS_IA.git
+   cd TRILHA_A_DADOS_IA
+
+2. **Crie e ative um ambiente virtual (opcional):**
+
+   ```bash
+    python -m venv venv
+    source venv/bin/activate    # Linux/Mac
+    venv\Scripts\activate       # Windows
+   ```
+3. **Instale as dependências:**
+   ```bash
+   pip install -r requirements.txt
+   ```
+4. **Configure as credenciais AWS:**
+    AWS_ACCESS_KEY_ID=seu_access_key
+    AWS_SECRET_ACCESS_KEY=seu_secret_key
+    AWS_REGION=us-east-1
+
+    OBS.: Foram usadas as credenciais são de uma conta de teste.
+
+5. **Execute o notebook:**
+   ```bash
+   jupyter notebook notebooks/trilhaA/notebook.ipynb
+   ```
+
+---
 ## Autor
 
 Pedro Henrique Morais  
